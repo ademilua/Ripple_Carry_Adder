@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Sat Dec  8 22:13:39 2018
+# Process ID: 14904
+# Current directory: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7912 C:\Users\Isaac Ewa\Desktop\lab 5\Ripple_Carry_Adder\Ripple_Carry_Adder.xpr
+# Log file: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/vivado.log
+# Journal file: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/Ripple_Carry_Adder.xpr}Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+IINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedIINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxx/Vivado/2018.2/data/ip'.open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 689.746 ; gain = 32.219
+uupdate_compile_order -fileset sources_1archive_project {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder.xpr.zip} -temp_dir {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/.Xil/Vivado-6304-Hizicque-PC} -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/.Xil/Vivado-6304-Hizicque-PC' for archiving project
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/.Xil/Vivado-6304-Hizicque-PC/PrjAr/_X_'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...

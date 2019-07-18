@@ -1,0 +1,379 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec 27 21:16:20 2018
+# Process ID: 11620
+# Current directory: F:/dismas/Ripple_Carry_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8388 F:\dismas\Ripple_Carry_Adder\Ripple_Carry_Adder.xpr
+# Log file: F:/dismas/Ripple_Carry_Adder/vivado.log
+# Journal file: F:/dismas/Ripple_Carry_Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 737.141 ; gain = 65.465
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Ripple_Carry_Adder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Ripple_Carry_Adder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sources_1/new/Ripple_Carry_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 801800e1ca404144aea5f1afb1d47579 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ripple_Carry_Adder_tb_behav xil_defaultlib.Ripple_Carry_Adder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Ripple_Carry_Adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry_adder_tb
+Built simulation snapshot Ripple_Carry_Adder_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim/xsim.dir/Ripple_Carry_Adder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim/xsim.dir/Ripple_Carry_Adder_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Dec 27 21:17:13 2018. For additional details about this file, please refer to the WebTalk help file at C:/DigiXilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 27 21:17:13 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 761.512 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ripple_Carry_Adder_tb_behav -key {Behavioral:sim_1:Functional:Ripple_Carry_Adder_tb} -tclbatch {Ripple_Carry_Adder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Ripple_Carry_Adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Testing at A(0) and B(0) failed
+Time: 10 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(1) and B(15) failed
+Time: 320 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(14) failed
+Time: 470 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(15) failed
+Time: 480 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(13) failed
+Time: 620 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(14) failed
+Time: 630 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(15) failed
+Time: 640 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(12) failed
+Time: 770 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(13) failed
+Time: 780 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(14) failed
+Time: 790 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(15) failed
+Time: 800 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(11) failed
+Time: 920 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(12) failed
+Time: 930 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(13) failed
+Time: 940 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(14) failed
+Time: 950 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(15) failed
+Time: 960 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ripple_Carry_Adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 763.336 ; gain = 1.824
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 802.762 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Ripple_Carry_Adder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Ripple_Carry_Adder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 801800e1ca404144aea5f1afb1d47579 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ripple_Carry_Adder_tb_behav xil_defaultlib.Ripple_Carry_Adder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Ripple_Carry_Adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry_adder_tb
+Built simulation snapshot Ripple_Carry_Adder_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ripple_Carry_Adder_tb_behav -key {Behavioral:sim_1:Functional:Ripple_Carry_Adder_tb} -tclbatch {Ripple_Carry_Adder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Ripple_Carry_Adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Testing at A(0) and B(0) failed
+Time: 10 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(1) and B(15) failed
+Time: 320 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(14) failed
+Time: 470 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(15) failed
+Time: 480 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(13) failed
+Time: 620 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(14) failed
+Time: 630 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(15) failed
+Time: 640 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(12) failed
+Time: 770 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(13) failed
+Time: 780 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(14) failed
+Time: 790 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(15) failed
+Time: 800 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(11) failed
+Time: 920 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(12) failed
+Time: 930 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(13) failed
+Time: 940 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(14) failed
+Time: 950 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(15) failed
+Time: 960 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__34  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ripple_Carry_Adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 804.836 ; gain = 2.074
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Ripple_Carry_Adder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Ripple_Carry_Adder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 801800e1ca404144aea5f1afb1d47579 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ripple_Carry_Adder_tb_behav xil_defaultlib.Ripple_Carry_Adder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Ripple_Carry_Adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry_adder_tb
+Built simulation snapshot Ripple_Carry_Adder_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ripple_Carry_Adder_tb_behav -key {Behavioral:sim_1:Functional:Ripple_Carry_Adder_tb} -tclbatch {Ripple_Carry_Adder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Ripple_Carry_Adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Testing at A(0) and B(0) failed
+Time: 10 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(1) and B(15) failed
+Time: 320 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(14) failed
+Time: 470 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(15) failed
+Time: 480 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(13) failed
+Time: 620 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(14) failed
+Time: 630 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(15) failed
+Time: 640 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(12) failed
+Time: 770 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(13) failed
+Time: 780 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(14) failed
+Time: 790 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(15) failed
+Time: 800 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(11) failed
+Time: 920 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(12) failed
+Time: 930 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(13) failed
+Time: 940 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(14) failed
+Time: 950 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(15) failed
+Time: 960 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__35  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ripple_Carry_Adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 805.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Ripple_Carry_Adder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Ripple_Carry_Adder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/DigiXilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 801800e1ca404144aea5f1afb1d47579 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ripple_Carry_Adder_tb_behav xil_defaultlib.Ripple_Carry_Adder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Ripple_Carry_Adder [ripple_carry_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ripple_carry_adder_tb
+Built simulation snapshot Ripple_Carry_Adder_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Ripple_Carry_Adder_tb_behav -key {Behavioral:sim_1:Functional:Ripple_Carry_Adder_tb} -tclbatch {Ripple_Carry_Adder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Ripple_Carry_Adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Testing at A(0) and B(0) failed
+Time: 10 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(1) and B(15) failed
+Time: 320 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(14) failed
+Time: 470 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(15) failed
+Time: 480 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(13) failed
+Time: 620 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(14) failed
+Time: 630 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(15) failed
+Time: 640 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(12) failed
+Time: 770 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(13) failed
+Time: 780 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(14) failed
+Time: 790 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(15) failed
+Time: 800 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(11) failed
+Time: 920 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(12) failed
+Time: 930 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(13) failed
+Time: 940 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(14) failed
+Time: 950 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(15) failed
+Time: 960 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Ripple_Carry_Adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 809.777 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 27 21:38:24 2018...

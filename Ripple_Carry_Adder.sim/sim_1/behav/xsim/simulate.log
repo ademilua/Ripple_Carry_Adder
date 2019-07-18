@@ -1,0 +1,34 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: Testing at A(0) and B(0) failed
+Time: 10 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(1) and B(15) failed
+Time: 320 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(14) failed
+Time: 470 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(2) and B(15) failed
+Time: 480 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(13) failed
+Time: 620 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(14) failed
+Time: 630 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(3) and B(15) failed
+Time: 640 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(12) failed
+Time: 770 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(13) failed
+Time: 780 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(14) failed
+Time: 790 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(4) and B(15) failed
+Time: 800 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(11) failed
+Time: 920 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(12) failed
+Time: 930 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(13) failed
+Time: 940 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(14) failed
+Time: 950 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd
+Error: Testing at A(5) and B(15) failed
+Time: 960 ns  Iteration: 0  Process: /Ripple_Carry_Adder_tb/line__36  File: F:/dismas/Ripple_Carry_Adder/Ripple_Carry_Adder.srcs/sim_1/new/Ripple_Carry_Addeer_tb.vhd

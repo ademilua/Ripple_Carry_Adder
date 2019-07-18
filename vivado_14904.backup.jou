@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Sat Dec  8 22:13:39 2018
+# Process ID: 14904
+# Current directory: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7912 C:\Users\Isaac Ewa\Desktop\lab 5\Ripple_Carry_Adder\Ripple_Carry_Adder.xpr
+# Log file: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/vivado.log
+# Journal file: C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/Ripple_Carry_Adder.xpr}uupdate_compile_order -fileset sources_1archive_project {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder.xpr.zip} -temp_dir {C:/Users/Isaac Ewa/Desktop/lab 5/Ripple_Carry_Adder/.Xil/Vivado-6304-Hizicque-PC} -force -exclude_run_results
